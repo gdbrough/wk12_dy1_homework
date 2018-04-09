@@ -1,5 +1,3 @@
-// const app = function(){
-
 // 1. create parent container and its class
 var createCatArticle = function(){
   let catUL = document.createElement("ul");
@@ -47,7 +45,6 @@ var addCat = function(catName, catfood, catPic) {
   var nameOfCat = createCatName(catName);
   var favFoodOfCat = createCatFood(catFood);
   var picOfCat = createCatPic(catPic);
-  // var cite = createCite(author);
   appendElements(catArticle, nameOfCat, favFoodOfCat, picOfCat);
 };
 
